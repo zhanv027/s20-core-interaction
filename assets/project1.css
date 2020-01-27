@@ -1,0 +1,220 @@
+body {
+  padding: 100px;
+  margin: center;
+
+  background-color: black;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+
+#card1 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  text-align: center;
+  color: white;
+  padding: 20px; 
+  margin: 20px;
+  font-size: 20px;
+  width: 250px;
+  height: 150px; 
+}
+
+#c1-1 {
+  display: none;
+  font-size: 35px;
+  margin-top: 10px;
+  padding: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+#card1:hover #c1-1 {
+  display: block;
+}
+
+
+
+#card2 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  text-align: center;
+  padding: 20px; 
+  margin: 20px;
+  font-size: 20px;
+  width: 250px;
+  height: 150px; 
+  color: white;
+}
+
+#c2-1 {
+  display: none;
+  font-size: 35px;
+  margin-top: 5px;
+  padding: 5px;
+  font-weight: bold;
+  color: red;
+}
+
+#card2:hover #c2-1 {
+  display: block;
+}
+
+
+
+#card3 {
+  border-radius: 25px;
+  border: solid 2px rgba(30,30,30);
+  text-align: center;
+  color: white;
+  padding: 20px; 
+  margin: 20px;
+  font-size: 20px;
+  width: 250px;
+  height: 150px; 
+}
+
+#c3-1 {
+  display: none;
+  font-size: 35px;
+
+  font-weight: bold;
+  color: red;
+}
+
+#card3:hover #c3-1 {
+  display: block;
+}
+
+
+
+#card4 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  text-align: center;
+  padding: 20px; 
+  margin: 20px;
+  font-size: 20px;
+  width: 250px;
+  height: 150px; 
+  color: white;
+}
+
+#c4-1 {
+  display: none;
+  font-size: 35px;
+  margin-top: 10px;
+  padding: 5px;
+  font-weight: bold;
+  color: red;
+}
+
+#card4:hover #c4-1 {
+  display: block;
+}
+
+
+#card5 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  text-align: center;
+  padding: 20px; 
+  margin: 20px;
+  font-size: 20px;
+  width: 250px;
+  height: 150px; 
+  color: white;
+}
+
+#card6 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  text-align: center;
+  padding: 20px; 
+  margin: 20px;
+  font-size: 20px;
+  width: 250px;
+  height: 150px; 
+  color: white;
+}
+
+#c6-1 {
+  display: none;
+  font-size: 35px;
+  margin-top: center;
+  padding: 5px;
+  font-weight: bold;
+  color: red;
+}
+
+#card6:hover #c6-1 {
+  display: block;
+}
+
+#card7 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  text-align: center;
+  padding: 20px; 
+  margin: 20px;
+  font-size: 20px;
+  width: 250px;
+  height: 150px; 
+  color: white;
+}
+
+#card8 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  text-align: center;
+  padding: 20px; 
+  margin: 20px;
+  font-size: 20px;
+  width: 250px;
+  height: 150px; 
+  color: white;
+}
+
+#card9 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  text-align: center;
+  padding: 20px; 
+  margin: 20px;
+  font-size: 20px;
+  width: 250px;
+  height: 150px; 
+  color: white;
+}
+
+#card10 {
+  border-radius: 25px;
+  border: solid 2px #73AD21;
+  text-align: center;
+  color: white;
+  padding: 20px; 
+  margin: 20px;
+  font-size: 20px;
+  width: 250px;
+  height: 150px; 
+}
+
+#c10-1 {
+  display: none;
+  font-size: 80px;
+  font-weight: bold;
+  color: white;
+}
+
+#card10:hover #c10-1 {
+  display: block;
+}
+
+
+.Row {
+  display: table;
+}
+
+.Column {
+  display: table-cell;
+}
+
