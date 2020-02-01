@@ -1,0 +1,70 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	font-size: 2vw;
+
+}
+
+
+
+.box {
+	position: relative;
+	display: block;
+}
+
+
+#box-1 {
+	z-index: 100;
+	background-color: white;
+	font-family: 'Pinyon Script', cursive;
+	font-size: 18vw;
+	text-align: center;
+	color: blue;
+	width: 100vw;
+	height: 24vw;
+	color: #39c0c4;
+	position: relative;
+	display: block;
+}
+
+
+
+#box-2 {
+	background-color: white;
+	z-index: 101;
+	font-family: futura;
+	font-size: 5vw;
+	text-align: center;
+	color: blue;
+	width: 100vw;
+	height: 10vh;
+	color: #39c0c4;
+	position: relative;
+	display: block;
+
+}
+
+#box-3 {
+	background-color: white;
+	height: 30vh;
+	width: 65vw;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 11vw;
+	color: #39c0c4;
+	text-align: left;
+	position: relative;
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
