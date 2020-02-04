@@ -1,7 +1,6 @@
 body {
   padding: 100px;
   margin: center;
-
   background-color: black;
   font-family: 'IBM Plex Mono', monospace;
 }
@@ -41,7 +40,6 @@ body {
   border-left-color: white;
   border-top-color: #73AD21;
   text-align: center;
-  text-color: white;
   padding: 20px; 
   margin: 20px;
   font-size: 20px;
@@ -170,7 +168,6 @@ body {
   border-radius: 25px;
   border: 2px solid #73AD21;
   text-align: center;
-  
   padding: 20px; 
   margin: 20px;
   font-size: 20px;
@@ -186,7 +183,50 @@ body {
   color: yellow;
 }
 
-#card9 {
+.flip-card9 {
+  background-color: transparent;
+  perspective: 1000px;
+}
+
+.flip-card9-inner {
+  position: relative;
+  width: 250px;
+  height: 150px; 
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  text-align: center;
+  padding: 20px; 
+  margin: 20px;
+  font-size: 20px;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card9:hover .flip-card9-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card9-front, .flip-card9-back {
+  position: absolute;
+  width: 250px;
+  height: 150px; 
+  backface-visibility: hidden;
+}
+
+.flip-card9-front {
+  color: white;
+}
+
+.flip-card9-back {
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+
+/*#card9 {
   border-radius: 25px;
   border: 2px solid #73AD21;
   text-align: center;
@@ -204,6 +244,11 @@ body {
   padding: 5px;
   color: yellow;
 }
+
+#card9:hover #c9-1 {
+  transform: rotateY(130deg);
+}
+*/
 
 #card10 {
   border-radius: 25px;
@@ -241,15 +286,39 @@ body {
 }
 
 #c11-1 {
-  display: none;
-  font-size: 35px;
-  margin-top: 10px;
-  padding: 5px;
-  font-weight: bold;
-  color: red;
+  border-radius: 0px;
+  border: 2px solid red;
 }
 
-#card12 {
+#card11:hover #c11-1 {
+  display: block;
+
+}
+
+.content {
+  width: 250px;
+  height: 150px; 
+}
+
+.shape {
+  width: 250px;
+  height: 150px; 
+}
+
+.card12 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  transition: all .5s;
+  padding: 20px;
+  margin: 20px;
+}
+.card12:hover{
+  border-radius: 0;
+  border: 2px solid #73AD21;
+  
+}
+
+/*#card12 {
   border-radius: 25px;
   border: 2px solid #73AD21;
   text-align: center;
@@ -269,7 +338,7 @@ body {
   font-weight: bold;
   color: red;
 }
-
+*/
 
 #card13 {
   border-radius: 25px;
@@ -317,6 +386,12 @@ body {
   color: red;
 }
 
+#misslink {
+  padding: 8px;
+  font-size: 20vw;
+  height: 40vw;
+  background-color: white;
+}
 
 .Row {
   display: table;
