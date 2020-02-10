@@ -4,34 +4,115 @@
 }
 
 body {
-  background-color: yellow;
+  background-color: #062FFF;
+  height: 300vw;
+}
+
+
+.Row {
+  display: table;
+}
+
+.mod1 {
+  border: 2px solid white;
+  width: 100vw;
+  height: 100vw;
+}
+
+.mod1:hover .m1-1 {
+  background-color: red;
+  border: 2px solid white;
+  width: 50vw;
+  height: 50vw;
+  margin: center;
+  transform: rotate(720deg);
+  transition: all 1.2s ease-in-out 0s;
+}
+
+.mod2 {
+  width: 0;
+  height: 0;
+  border-top: 50vw solid transparent;
+  border-right: 100vw solid white;
+  border-bottom: 50vw solid
+}
+
+.mod2:hover .m2-1 {
+  background-color: red;
+  width: 0;
+  height: 0;
+  border-top: 50vw solid transparent;
+  border-right: 100vw solid white;
+  transform: rotate(360deg);
+  transition: all .7s ease-in-out 0s;
+}
+
+.mod3 {
+  border: 2px solid white;
+  width: 100vw;
+  height: 100vw;
+}
+
+.mod3:hover .m3-1 {
+  background-color: red;
+  border: 2px solid white;
+  width: 50vw;
+  height: 80vw;
+  margin: center;
+  padding-top: 20vw;
+  transform: skew(180deg);
+  transition: all .7s ease-in-out 0s;
+}
+
+.mod4 {
+  border: 2px solid white;
+  width: 100vw;
+  height: 100vw;
+  border-radius: 50%;
+}
+
+.mod4:hover .m4-1 {
+  background-color: red;
+  border-radius: 50%;
+  border: 2px solid white;
+  width: 50vw;
+  height: 50vw;
+  margin: center;
+  padding: 25vw;
+  transform: scale(.5);
+  transition: all .7s ease-in-out 0s;
+}
+
+
+
+@media (max-width: 1024px) {
+  body {
+    background-color: #512d82;
+  }
 }
 
 @media (max-width: 768px) {
-	.columns {
-		width: 100%;
-	}
-}
-
-
-
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
+  .mod4 {
+        background-color: brown;
+        border-radius: 40%;
   }
+  .mod4:hover .m4-1 {
+  background-color: red;
+  border-radius: 40%;
+  border: 2px solid white;
+  width: 50vw;
+  height: 50vw;
+  margin: center;
+  padding: 25vw;
+  transform: scale(.5);
+  transition: all .7s ease-in-out 0s;
+}
 }
 
-
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
+@media only screen and (orientation: portrait) {
+    body {
+      background-color: #ba5d82;
+    }
 }
 
-
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-}
 
