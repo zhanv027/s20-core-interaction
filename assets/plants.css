@@ -1,0 +1,103 @@
+html, body {
+	padding: 0;
+	margin: 5vh;
+	font-size: 2vw;
+	background-color: blue;
+}
+
+
+
+#plant {
+	position: relative;
+	border-radius: 20%;
+	width: 10vw;
+	margin: 0 auto;
+}
+
+
+
+#plant.small {
+	background-color: indigo;
+}
+
+:hover #plant {
+	background-color: red;
+	transform: scale(1.5);
+  	transition: all .5s ease-in-out 0s;
+}
+
+#plant:hover .spot1 {
+	background-color: brown;
+	transform: scale(.5);
+  	transition: all .5s ease-in-out 0s;
+}
+
+#plant:hover .spot2 {
+	background-color: black;
+	transform: scale(.5);
+  	transition: all .5s ease-in-out 0s;
+}
+
+#plant:hover .spot3 {
+	background-color: brown;
+	transform: scale(.5);
+  	transition: all .5s ease-in-out 0s;
+}
+
+#plant:hover .spot4 {
+	background-color: black;
+	transform: scale(.5);
+  	transition: all .5s ease-in-out 0s;
+}
+
+#plant:hover .spot5 {
+	background-color: brown;
+	transform: scale(.5);
+  	transition: all .5s ease-in-out 0s;
+}
+
+
+
+.spot1 {
+  	border-radius: 50%;
+	width: 10vw;
+	height: 10vw;
+	margin-bottom: 1.5rem;
+	background-color: pink;
+	margin: -3vh;
+}
+
+.spot2 {
+	border-radius: 50%;
+	width: 5vw;
+	height: 5vw;
+	margin-bottom: 1.5rem;
+	background-color: lightgray;
+	margin: 1vh;
+}
+
+.spot3 {
+	border-radius: 50%;
+	width: 10vw;
+	height: 10vw;
+	margin-bottom: 1.5rem;
+	background-color: pink;
+	margin: 5vh;
+}
+
+.spot4 {
+	border-radius: 50%;
+	width: 5vw;
+	height: 5vw;
+	margin-bottom: 1.5rem;
+	background-color: lightgray;
+}
+
+.spot5 {
+	border-radius: 50%;
+	width: 10vw;
+	height: 10vw;
+	margin-bottom: 1.5rem;
+	background-color: pink;
+	margin: 2vh;
+}
