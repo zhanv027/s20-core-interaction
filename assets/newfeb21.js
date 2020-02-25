@@ -4,7 +4,7 @@ console.log("Hello!");
 
 //variables
 
-/*var myString = "this is a string"
+var myString = "this is a string"
 
 var myBoolean = true;
 var myOtherBoolean = false;
@@ -24,7 +24,7 @@ var myObjects = {
 //console.log(myObjects.aNumber);
 
 //document means find html page
-//getElementById means get one Id in html page*/
+//getElementById means get one Id in html page
 
 var square = document.getElementById("square");
 
@@ -142,7 +142,8 @@ for (var i = 0; i < circles.length; i++) {
 
 //innerHTML adds content
 
-/*
+for (var i = 0; i < 100; i++)
+
 var title = document.querySelector("h1");
 
 //inside of HTML element
@@ -157,7 +158,7 @@ title.innerHTML = "Hellooooo";
 //add words to the string with +=
 title.innerHTML += " everyone";
 
-title.innerHTML = "wait, " + title.innerHTML;*/
+title.innerHTML = "wait, " + title.innerHTML;
 
 
 
@@ -197,15 +198,15 @@ setInterval(function(){
 }, 1000)
 
 //call specific date
-//var now = new Date();
-//var clock = `${now.getHours()}: ${now.getSeconds}`
+var now = new Date();
+var clock = `${now.getHours()}: ${now.getSeconds}`
 
 //console.log(Date.now()) get specific time now
 
 //console.log(now.getHours()+ ";" + now.getSeconds())
-//setInterval(function(){
+setInterval(function(){
 
-//}, 1000)
+}, 1000)
 
 
 
