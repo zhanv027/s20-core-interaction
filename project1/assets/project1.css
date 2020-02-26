@@ -1,0 +1,548 @@
+
+body {
+  margin: center;
+  background-color: black;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.Row {
+  padding: 5vw;
+}
+
+a {
+  color: #062FFF;
+}
+
+span:hover {
+  color: black;
+}
+
+
+.dropbtn {
+  background-color: black;
+  color: #73AD21;
+  border: 2px solid;
+  border-radius: 15px;
+  font-size: 15px;
+  font-family: 'IBM Plex Mono';
+  cursor: pointer;
+  height: 40px;
+  width: 90px;
+}
+
+
+#card1 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  text-align: center;
+  color: black;
+  padding: 20px; 
+  margin: 20px;
+  font-size: 20px;
+  width: 250px;
+  height: 150px; 
+}
+
+#c1-1 {
+  display: none;
+  font-size: 35px;
+  margin-top: 10px;
+  padding: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+#card1:hover #c1-1 {
+  display: block;
+  visibility: visible;
+}
+
+
+
+.card2 {
+  border-radius: 25px;
+  border: 2px dashed;
+  border-color: #73AD21;
+  text-align: center;
+  padding: 20px; 
+  margin: 20px;
+  font-size: 20px;
+  width: 250px;
+  height: 150px; 
+  color: black;
+}
+
+#c2-1 {
+  display: none;
+  color: white;
+}
+
+.card2:hover #c2-1 {
+    display: block;
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all .7s ease-in-out 0s;
+}
+
+.card2:hover {
+    display: block;
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all .7s ease-in-out 0s;
+}
+
+#card3 {
+  border-radius: 25px;
+  border: solid 2px rgba(30,30,30);
+  text-align: center;
+  color: black;
+  padding: 20px; 
+  margin: 20px;
+  font-size: 20px;
+  width: 250px;
+  height: 150px; 
+}
+
+#c3-1 {
+  display: none;
+  font-size: 35px;
+  font-weight: bold;
+  color: red;
+}
+
+#card3:hover {
+  display: block;
+  color: white;
+}
+
+#card3:hover #card11 {
+  color: white;
+}
+
+
+
+.card4 {
+  border-radius: 25px;
+  border: 2px solid;
+  border-color: #73AD21;
+  text-align: center;
+  padding: 20px; 
+  margin: 20px;
+  font-size: 20px;
+  width: 250px;
+  height: 150px; 
+  color: black;
+}
+
+.card4:hover  {
+  background-color: red;
+  display: block;
+  border: none;
+  transition: transform .2s;
+  width: 500px;
+  height: 300px;
+}
+
+#c4-1 {
+  display: none;
+}
+
+
+.card5 {
+  position: relative;
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  text-align: center;
+  padding: 45px; 
+  margin: 20px;
+  font-size: 20px;
+  width: 200px;
+  height: 100px; 
+  color: white;
+}
+
+#c5-1 {
+  display: none;
+  font-size: 35px;
+  margin-top: 10px;
+  padding: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.card5:hover #c5-1 {
+  display: block;
+}
+
+.card5:hover .hide2{
+  display: block;
+  background-color: black;
+  position: absolute;
+  width: 400px;
+  height: 190px; 
+  backface-visibility: hidden;
+}
+
+.hide2 {
+  display: none;
+  width: 10%;
+  height: 10%; 
+  transform: scale(4);
+}
+
+#card6 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  text-align: center;
+  padding: 20px; 
+  margin: 20px;
+  font-size: 20px;
+  width: 250px;
+  height: 150px; 
+  color: white;
+}
+
+#c6-1 {
+  display: none;
+  font-size: 35px;
+  margin-top: center;
+  padding: 5px;
+  font-weight: bold;
+  color: red;
+}
+
+#card6:hover #c6-1 {
+  display: block;
+}
+
+#card8 {
+  /*display: inline-block;*/
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  text-align: center;
+  padding: 20px; 
+  margin: 20px;
+  font-size: 20px;
+  width: 250px;
+  height: 150px; 
+  color: white;
+}
+
+#c8-1 {
+  text-align: center;
+  padding: 20px; 
+  margin: 20px;
+  font-size: 20px;
+  width: 250px;
+  height: 150px; 
+  color: white;
+}
+
+#card8:hover #c8-1{
+  font-size: 0;
+  border-radius: 25px;
+  border: 2px solid black;
+}
+
+
+.flip-card9 {
+  background-color: transparent;
+  perspective: 1000px;
+}
+
+.flip-card9-inner {
+  position: relative;
+  width: 250px;
+  height: 150px; 
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  text-align: center;
+  padding: 20px; 
+  margin: 20px;
+  font-size: 20px;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card9:hover .flip-card9-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card9-front, .flip-card9-back {
+  position: absolute;
+  width: 250px;
+  height: 150px; 
+  backface-visibility: hidden;
+}
+
+.flip-card9-front {
+  color: white;
+}
+
+.flip-card9-back {
+  color: white;
+  transform: rotateY(180deg);
+}
+
+#card10 {
+  border-radius: 25px;
+  border: solid 2px #73AD21;
+  text-align: center;
+  color: black;
+  padding: 20px; 
+  margin: 20px;
+  font-size: 20px;
+  width: 250px;
+  height: 150px; 
+}
+
+#c10-1 {
+  display: none;
+  font-size: 80px;
+  font-weight: bold;
+  color: white;
+}
+
+#card10:hover #c10-1 {
+  display: block;
+  transform: rotate(50deg) scale(6);
+}
+
+#card11 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  text-align: center;
+  padding: 20px; 
+  margin: 20px;
+  width: 250px;
+  height: 150px; 
+  color: white;
+}
+
+#c11-1 {
+  border-radius: 0px;
+  border: 2px solid #062FFF;
+}
+
+#card11:hover #c11-1 {
+  display: block;
+
+}
+
+.content {
+  width: 250px;
+  height: 150px; 
+}
+
+.shape {
+  width: 250px;
+  height: 150px; 
+}
+
+.card12 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  transition: all .5s;
+  padding: 20px;
+  margin: 20px;
+}
+
+.card12:hover{
+  transform: skew(90deg);
+}
+
+
+#card13 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  text-align: center;
+  padding: 20px; 
+  margin: 20px;
+  font-size: 20px;
+  width: 250px;
+  height: 150px; 
+  color: white;
+}
+
+#c13-1 {
+  display: none;
+  font-size: 40px;
+}
+
+#card13:hover #c13-1{
+  display: block;
+  transform: skew(480deg);
+  border-radius: 25px;
+  border: 2px solid;
+  animation-duration: 3.5s;
+  animation-name: c13;
+}
+
+#card13:hover {
+  border-color: black;
+}
+
+@keyframes c13 {
+  0%   {background-color: #062FFF; right: 0px; top: 0px;}
+  50%  {top: 700px; right: 0px; opacity: .75;}
+  75%  {background-color: #73AD21; opacity: .5;}
+  80%  {background-color: black;  color: black; opacity: .25;}
+  100% {background-color: black;  color: black; opacity: 0;}
+}
+
+#c14-1 {
+  display: none;
+  font-size: 35px;
+  margin-top: 10px;
+  padding: 5px;
+  font-weight: bold;
+  color: red;
+}
+
+.card14 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  text-align: center;
+  color: black;
+  padding: 20px; 
+  margin: 20px;
+  font-size: 20px;
+  width: 250px;
+  height: 150px; 
+}
+
+.card14:hover {
+  color: black;
+  background-color: white;
+}
+
+.card14::selection {
+  background: #062FFF;
+}
+
+.hide {
+  display: none;
+  width: 10%;
+  height: 100%; 
+  transform: scale(7.3);
+}
+
+.card15 {
+  position: relative;
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  text-align: center;
+  color: black;
+  padding: 20px; 
+  margin: 20px;
+  font-size: 20px;
+  width: 250px;
+  height: 150px; 
+}
+
+#c15-1 {
+  display: none;
+  font-size: 35px;
+  margin-top: 10px;
+  padding: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.card15:hover #c15-1 {
+  display: block;
+
+}
+
+.card15:hover .hide{
+  display: block;
+  background-color: black;
+  position: absolute;
+  width: 250px;
+  height: 150px; 
+  backface-visibility: hidden;
+}
+
+.card16 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  text-align: center;
+  color: black;
+  padding: 20px; 
+  margin: 20px;
+  font-size: 20px;
+  width: 250px;
+  height: 150px; 
+}
+
+.card16:hover {
+  transform: rotate(90deg) scale(.5);
+}
+
+#c16-1 {
+  display: none;
+  font-size: 35px;
+  margin-top: 10px;
+  padding: 5px;
+  color: white;
+}
+
+.card16:hover #c16-1{
+  display: block;
+}
+
+
+.card7:hover .movecard7 {
+  position: relative;
+  animation-duration: 2.5s;
+  animation-name: c7;
+  width: 150px;
+  height: 150px; 
+  border-radius: 50%;
+  text-align: center;
+  padding: 20px; 
+  margin-top: 20px;
+  color: white;
+  font-size: 20px;
+}
+
+.movecard7 {
+  margin-left: 30px;
+}
+
+.card7:hover{
+  border-bottom-color: black;
+}
+
+@keyframes c7 {
+  0%   {background-color: #062FFF; right: 0px; top: 0px;}
+  50%  {top: 700px; right: 0px; opacity: .75;}
+  75%  {background-color: #73AD21; opacity: .5;}
+  80%  {background-color: black;  color: black; opacity: .25;}
+  100% {background-color: black;  color: black; opacity: 0;}
+}
+
+
+.card7 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  text-align: center;
+  padding: 20px; 
+  margin: 20px;
+  font-size: 20px;
+  width: 250px;
+  height: 150px; 
+
+}
+
+
+.Row {
+  display: table;
+}
+
+.Column {
+  display: table-cell;
+}
+
