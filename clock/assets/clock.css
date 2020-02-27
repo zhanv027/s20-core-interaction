@@ -1,0 +1,80 @@
+html, body {
+    background-color: black;
+    height: 150vw;
+}
+
+
+#clock {
+	font-family: 'Signika', bold;
+	font-size: 8vw;
+}
+
+
+.c1 {
+    border-radius: 50%;
+    background-color: #C0F7FE;
+    width: 10vw; 
+    height: 10vw;
+    position: absolute;
+    right: 50vw;
+    top: 45vw;
+    text-align: center;
+    font-size: 30px;
+}
+
+.c2 {
+    border-radius: 50%;
+    background-color: #E1CAF9;
+    width: 10vw; 
+    height: 10vw;
+    position: absolute;
+    right: 70vw;
+    top: 5vw;
+    text-align: center;
+    font-size: 30px;
+}
+
+.c3 {
+    border-radius: 50%;
+    background-color: #CAFFD8;
+    width: 10vw; 
+    height: 10vw;
+    position: absolute;
+    left: 30vw;
+    top: 75vw;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.c4 {
+    border-radius: 50%;
+    background-color: #FFE6B5;
+    width: 10vw; 
+    height: 10vw;
+    position: absolute;
+    right: 40vw;
+    bottom: 25vw;
+    text-align: center;
+    font-size: 30px;
+}
+
+p{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+.c5 {
+    border-radius: 50%;
+    background-color: #FFC8E3;
+    width: 10vw; 
+    height: 10vw;
+    position: absolute;
+    right: 5vw;
+    top: 35vw;
+    text-align: center;
+    font-size: 30px;
+}
+

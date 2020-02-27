@@ -1,0 +1,257 @@
+html, body {
+    background-color: lightblue;
+    height: 150vw;
+}
+
+
+#clock {
+	font-family: 'Signika', bold;
+	font-size: 8vw;
+}
+
+
+.c1 {
+    border-radius: 50%;
+    background-color: #C0F7FE;
+    width: 10vw; 
+    height: 10vw;
+    position: absolute;
+    right: 50vw;
+    top: 45vw;
+    text-align: center;
+    font-size: 30px;
+}
+
+p{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+.c2 {
+    border-radius: 50%;
+    background-color: #E1CAF9;
+    width: 10vw; 
+    height: 10vw;
+    position: absolute;
+    right: 70vw;
+    top: 5vw;
+    text-align: center;
+    font-size: 30px;
+}
+
+.c3 {
+    border-radius: 50%;
+    background-color: #CAFFD8;
+    width: 10vw; 
+    height: 10vw;
+    position: absolute;
+    left: 30vw;
+    top: 75vw;
+    text-align: center;
+    font-size: 30px;
+}
+
+.c4 {
+    border-radius: 50%;
+    background-color: #FFE6B5;
+    width: 10vw; 
+    height: 10vw;
+    position: absolute;
+    right: 40vw;
+    bottom: 25vw;
+    text-align: center;
+    font-size: 30px;
+}
+
+.c5 {
+    border-radius: 50%;
+    background-color: #FFC8E3;
+    width: 10vw; 
+    height: 10vw;
+    position: absolute;
+    right: 5vw;
+    top: 35vw;
+    text-align: center;
+    font-size: 30px;
+}
+
+.c6 {
+    border-radius: 50%;
+    background-color: #C0F7FE;
+    width: 10vw; 
+    height: 10vw;
+    position: absolute;
+    right: 20vw;
+    top: 25vw;
+    text-align: center;
+    font-size: 30px;
+}
+
+.c7 {
+    border-radius: 50%;
+    background-color: #E1CAF9;
+    width: 10vw; 
+    height: 10vw;
+    position: absolute;
+    right: 10vw;
+    bottom: 40vw;
+    text-align: center;
+    font-size: 30px;
+}
+
+.c8 {
+    border-radius: 50%;
+    background-color: #CAFFD8;
+    width: 10vw; 
+    height: 10vw;
+    position: absolute;
+    left: 3vw;
+    top: 5vw;
+    text-align: center;
+    font-size: 30px;
+}
+
+.c9 {
+    border-radius: 50%;
+    background-color: #FFE6B5;
+    width: 10vw; 
+    height: 10vw;
+    position: absolute;
+    right: 100vw;
+    bottom: 5vw;
+    text-align: center;
+    font-size: 30px;
+}
+
+.c10 {
+    border-radius: 50%;
+    background-color: #FFC8E3;
+    width: 10vw; 
+    height: 10vw;
+    position: absolute;
+    right: 15vw;
+    top: 95vw;
+    text-align: center;
+    font-size: 30px;
+}
+
+.c11 {
+    border-radius: 50%;
+    background-color: #C0F7FE;
+    width: 10vw; 
+    height: 10vw;
+    position: absolute;
+    right: 0vw;
+    top: 65vw;
+    text-align: center;
+    font-size: 30px;
+}
+
+.c12 {
+    border-radius: 50%;
+    background-color: #E1CAF9;
+    width: 10vw; 
+    height: 10vw;
+    position: absolute;
+    right: 80vw;
+    top: 55vw;
+    text-align: center;
+    font-size: 30px;
+}
+
+.c13 {
+    border-radius: 50%;
+    background-color: #CAFFD8;
+    width: 10vw; 
+    height: 10vw;
+    position: absolute;
+    left: 30vw;
+    top: 75vw;
+    text-align: center;
+    font-size: 30px;
+}
+
+.c14 {
+    border-radius: 50%;
+    background-color: #FFE6B5;
+    width: 10vw; 
+    height: 10vw;
+    position: absolute;
+    right: 30vw;
+    top: 100vw;
+    text-align: center;
+    font-size: 30px;
+}
+
+.c15 {
+    border-radius: 50%;
+    background-color: #FFC8E3;
+    width: 10vw; 
+    height: 10vw;
+    position: absolute;
+    right: 5vw;
+    top: 35vw;
+    text-align: center;
+    font-size: 30px;
+}
+
+.c16 {
+    border-radius: 50%;
+    background-color: #C0F7FE;
+    width: 10vw; 
+    height: 10vw;
+    position: absolute;
+    right: 20vw;
+    top: 25vw;
+    text-align: center;
+    font-size: 30px;
+}
+
+.c17 {
+    border-radius: 50%;
+    background-color: #E1CAF9;
+    width: 10vw; 
+    height: 10vw;
+    position: absolute;
+    right: 30vw;
+    bottom: 5vw;
+    text-align: center;
+    font-size: 30px;
+}
+
+.c18 {
+    border-radius: 50%;
+    background-color: #CAFFD8;
+    width: 10vw; 
+    height: 10vw;
+    position: absolute;
+    left: 3vw;
+    top: 120vw;
+    text-align: center;
+    font-size: 30px;
+}
+
+.c19 {
+    border-radius: 50%;
+    background-color: #FFE6B5;
+    width: 10vw; 
+    height: 10vw;
+    position: absolute;
+    right: 100vw;
+    bottom: 5vw;
+    text-align: center;
+    font-size: 30px;
+}
+
+.c20 {
+    border-radius: 50%;
+    background-color: #FFC8E3;
+    width: 10vw; 
+    height: 10vw;
+    position: absolute;
+    right: 15vw;
+    top: 125vw;
+    text-align: center;
+    font-size: 30px;
+}

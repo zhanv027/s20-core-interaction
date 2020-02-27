@@ -8,7 +8,7 @@ myRootDiv.insertAdjacentHTML('beforeend', `
 
 var degrees = 0;
 
-
+setInterval(){
 
 	for (var i = 0; i < 50; i++) {
 
@@ -29,6 +29,6 @@ var degrees = 0;
 
 	}
 
-
+}, 1000)
 
 
