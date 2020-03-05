@@ -23,22 +23,21 @@ var body = document.getElementById("body")
 // populate existing dots
 for(var i = 0; i < totalMinutes; i++) {
 	
-		var r = Math.ceil(Math.random()*255) + 160;
-		var g = Math.round(Math.random()*170) + 140;
-		var b = Math.floor(Math.random()*170) + 140;
+		var r = Math.ceil(Math.random()*255) + 130;
+		var g = Math.round(Math.random()*255) + 160;
+		var b = Math.floor(Math.random()*255) + 120;
 		var x = Math.floor(Math.random()*100);
-		var y = Math.floor(Math.random()*100);
+		var y = Math.floor(Math.random()*1000);
 
 	body.insertAdjacentHTML('beforeend',`
 		<div class="dot" 
 		style="background-color: rgb(${r}, ${g}, ${b}); border-radius: 50%; 
-				width: 2vw; height: 2vw; text-align: center; font-size: .25vw; 
-				font-family: 'Spartan', sans-serif; color: white;
+				width: 10vw; height: 10vw; text-align: center; font-family: Signika;
 				position: absolute; left: ${x}%; top: ${y}%; z-index: ${i};
 				">
 				<div id="one"
-				style="font-size: 500%; position: relative; opacity: .5;
-				">.
+				style="font-size: 500%; position: relative;
+				">1
 				</div>
 		</div>
 
@@ -55,20 +54,15 @@ setInterval(function(){
 		var r = Math.ceil(Math.random()*255) + 130;
 		var g = Math.round(Math.random()*255) + 160;
 		var b = Math.floor(Math.random()*255) + 120;
-		var x = Math.floor(Math.random()*100);
-		var y = Math.floor(Math.random()*100);
+		var x = Math.floor(Math.random()*1000);
+		var y = Math.floor(Math.random()*1000);
 
 	body.insertAdjacentHTML('beforeend',`
 		<div class="dot" 
 		style="background-color: rgb(${r}, ${g}, ${b}); border-radius: 50%; 
-				width: 2vw; height: 2vw; text-align: center; font-size: .25vw; 
-				font-family: 'Spartan', sans-serif; color: white;
+				width: 10vw; height: 10vw; text-align: center; font-family: Signika; font-size: 860%; 
 				position: absolute; left: ${x}%; top: ${y}%; z-index: ${i};
-				">
-				<div id="one"
-				style="font-size: 500%; position: relative; opacity: .5;
-				">.
-				</div>
+				">1
 
 		</div>
 	`
@@ -82,7 +76,7 @@ setInterval(function(){
 	}
 
 	//}
-}, 60000)
+}, 6000)
 
 
 

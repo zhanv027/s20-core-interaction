@@ -85,7 +85,7 @@ setInterval(function(){
 		
 		myRootDiv.insertAdjacentHTML('beforeend', `
 			<div 
-				class="c1"
+			class="c1"
 				style="transform:background-color: rgb(${r}, ${g}, ${b});"
 			></div>
 		`)
