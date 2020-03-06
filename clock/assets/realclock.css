@@ -1,0 +1,13 @@
+
+
+
+@media(max-width: 768px){
+
+	.dot {
+		font-size: 2px;
+		width: 10px; 
+		height: 10px;
+	}
+	
+
+}
