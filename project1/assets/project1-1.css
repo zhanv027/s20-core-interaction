@@ -6,227 +6,24 @@ body {
 }
 
 .Row {
-  padding: 5vw;
+  padding-left: 7vw;
+  padding-right: 7vw;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
 }
 
-a {
-  color: white;
-  font-size: 35px;
-}
 
-
-#card1 {
+.button {
   border-radius: 25px;
   border: 2px solid #73AD21;
   text-align: center;
-  color: black;
-  padding: 20px; 
-  margin: 20px;
+  background-color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
   font-size: 20px;
-  width: 250px;
-  height: 150px; 
+  width: 294px;
+  height: 194px; 
 }
-
-
-.card2 {
-  border-radius: 25px;
-  border: 2px dashed;
-  border-color: #73AD21;
-  text-align: center;
-  padding: 20px; 
-  margin: 20px;
-  font-size: 20px;
-  width: 250px;
-  height: 150px; 
-  color: black;
-}
-
-
-#card3 {
-  border-radius: 25px;
-  border: solid 2px rgba(30,30,30);
-  text-align: center;
-  color: black;
-  padding: 20px; 
-  margin: 20px;
-  font-size: 20px;
-  width: 250px;
-  height: 150px; 
-}
-
-.card4 {
-  border-radius: 25px;
-  border: 2px solid;
-  border-color: #73AD21;
-  text-align: center;
-  padding: 20px; 
-  margin: 20px;
-  font-size: 20px;
-  width: 250px;
-  height: 150px; 
-  color: black;
-}
-
-
-.card5 {
-  position: relative;
-  border-radius: 25px;
-  border: 2px solid #73AD21;
-  text-align: center;
-  padding: 45px; 
-  margin: 20px;
-  font-size: 20px;
-  width: 200px;
-  height: 100px; 
-  color: white;
-}
-
-
-#card6 {
-  border-radius: 25px;
-  border: 2px solid #73AD21;
-  text-align: center;
-  padding: 20px; 
-  margin: 20px;
-  font-size: 20px;
-  width: 250px;
-  height: 150px; 
-  color: white;
-}
-
-
-#card8 {
-  border-radius: 25px;
-  border: 2px solid #73AD21;
-  text-align: center;
-  padding: 20px; 
-  margin: 20px;
-  font-size: 20px;
-  width: 250px;
-  height: 150px; 
-  color: white;
-}
-
-
-.flip-card9-front {
-  border-radius: 25px;
-  border: 2px solid #73AD21;
-  text-align: center;
-  padding: 20px; 
-  margin: 20px;
-  font-size: 20px;
-  width: 250px;
-  height: 150px; 
-  color: black;
-}
-
-
-#card10 {
-  border-radius: 25px;
-  border: solid 2px #73AD21;
-  text-align: center;
-  color: black;
-  padding: 20px; 
-  margin: 20px;
-  font-size: 20px;
-  width: 250px;
-  height: 150px; 
-}
-
-
-#card11 {
-  border-radius: 25px;
-  border: 2px solid #73AD21;
-  text-align: center;
-  padding: 20px; 
-  margin: 20px;
-  width: 250px;
-  height: 150px; 
-  color: black;
-}
-
-
-
-.content {
-  width: 250px;
-  height: 150px; 
-}
-
-.shape {
-  width: 250px;
-  height: 150px; 
-}
-
-.card12 {
-  border-radius: 25px;
-  border: 2px solid #73AD21;
-  padding: 20px;
-  margin: 20px;
-}
-
-
-#card13 {
-  border-radius: 25px;
-  border: 2px solid #73AD21;
-  text-align: center;
-  padding: 20px; 
-  margin: 20px;
-  font-size: 20px;
-  width: 250px;
-  height: 150px; 
-  color: black;
-}
-
-
-.card14 {
-  border-radius: 25px;
-  border: 2px solid #73AD21;
-  text-align: center;
-  color: black;
-  padding: 20px; 
-  margin: 20px;
-  font-size: 20px;
-  width: 250px;
-  height: 150px; 
-}
-
-.card15 {
-  position: relative;
-  border-radius: 25px;
-  border: 2px solid #73AD21;
-  text-align: center;
-  color: black;
-  padding: 20px; 
-  margin: 20px;
-  font-size: 20px;
-  width: 250px;
-  height: 150px; 
-}
-
-.card16 {
-  border-radius: 25px;
-  border: 2px solid #73AD21;
-  text-align: center;
-  color: black;
-  padding: 20px; 
-  margin: 20px;
-  font-size: 20px;
-  width: 250px;
-  height: 150px; 
-}
-
-.card7 {
-  border-radius: 25px;
-  border: 2px solid #73AD21;
-  text-align: center;
-  padding: 20px; 
-  margin: 20px;
-  font-size: 20px;
-  width: 250px;
-  height: 150px; 
-
-}
-
 
 .Row {
   display: table;

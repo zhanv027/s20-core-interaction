@@ -6,7 +6,9 @@ body {
 }
 
 .Row {
-  padding: 5vw;
+  padding-left: 7vw;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
 }
 
 a {
@@ -17,6 +19,10 @@ span:hover {
   color: black;
 }
 
+span {
+  text-align: center;
+  vertical-align: middle;
+}
 
 .dropbtn {
   background-color: black;
@@ -41,6 +47,7 @@ span:hover {
   font-size: 20px;
   width: 250px;
   height: 150px; 
+  vertical-align: middle;
 }
 
 #c1-1 {
@@ -48,7 +55,6 @@ span:hover {
   font-size: 35px;
   margin-top: 10px;
   padding: 5px;
-  font-weight: bold;
   color: white;
 }
 
@@ -70,6 +76,7 @@ span:hover {
   width: 250px;
   height: 150px; 
   color: black;
+  vertical-align: middle;
 }
 
 #c2-1 {
@@ -98,7 +105,7 @@ span:hover {
   color: black;
   padding: 20px; 
   margin: 20px;
-  font-size: 20px;
+  font-size: 35px;
   width: 250px;
   height: 150px; 
 }
@@ -106,7 +113,6 @@ span:hover {
 #c3-1 {
   display: none;
   font-size: 35px;
-  font-weight: bold;
   color: red;
 }
 
@@ -141,6 +147,7 @@ span:hover {
   transition: transform .2s;
   width: 500px;
   height: 300px;
+  font-size: 75px;
 }
 
 #c4-1 {
@@ -166,7 +173,6 @@ span:hover {
   font-size: 35px;
   margin-top: 10px;
   padding: 5px;
-  font-weight: bold;
   color: white;
 }
 
@@ -196,7 +202,7 @@ span:hover {
   text-align: center;
   padding: 20px; 
   margin: 20px;
-  font-size: 20px;
+  font-size: 35px;
   width: 250px;
   height: 150px; 
   color: white;
@@ -207,7 +213,6 @@ span:hover {
   font-size: 35px;
   margin-top: center;
   padding: 5px;
-  font-weight: bold;
   color: red;
 }
 
@@ -222,29 +227,33 @@ span:hover {
   text-align: center;
   padding: 20px; 
   margin: 20px;
-  font-size: 20px;
+  font-size: 35px;
   width: 250px;
   height: 150px; 
   color: white;
 }
 
 #c8-1 {
-  text-align: center;
-  padding: 20px; 
-  margin: 20px;
-  font-size: 20px;
-  width: 250px;
-  height: 150px; 
   color: white;
 }
 
 #card8:hover #c8-1{
+  display: block;
   font-size: 0;
   border-radius: 25px;
   border: 2px solid black;
 }
 
-
+#c9-1 {
+  text-align: center;
+  color: black;
+  padding: 20px; 
+  margin: 20px;
+  font-size: 20px;
+  width: 250px;
+  height: 150px; 
+  vertical-align: middle;
+}
 .flip-card9 {
   background-color: transparent;
   perspective: 1000px;
@@ -274,6 +283,8 @@ span:hover {
   position: absolute;
   width: 250px;
   height: 150px; 
+  text-align: center;
+  vertical-align: middle;
   backface-visibility: hidden;
 }
 
@@ -301,7 +312,6 @@ span:hover {
 #c10-1 {
   display: none;
   font-size: 80px;
-  font-weight: bold;
   color: white;
 }
 
@@ -309,26 +319,33 @@ span:hover {
   display: block;
   transform: rotate(50deg) scale(6);
 }
-
 #card11 {
   border-radius: 25px;
   border: 2px solid #73AD21;
   text-align: center;
+  color: black;
   padding: 20px; 
   margin: 20px;
+  font-size: 35px;
   width: 250px;
   height: 150px; 
-  color: white;
+  vertical-align: middle;
 }
 
 #c11-1 {
+  display: none;
+  font-size: 35px;
+  margin-top: 10px;
+  padding: 5px;
+  color: white;
   border-radius: 0px;
+  font-size: 20px;
   border: 2px solid #062FFF;
 }
 
 #card11:hover #c11-1 {
   display: block;
-
+  visibility: visible;
 }
 
 .content {
@@ -397,7 +414,6 @@ span:hover {
   font-size: 35px;
   margin-top: 10px;
   padding: 5px;
-  font-weight: bold;
   color: red;
 }
 
@@ -447,7 +463,6 @@ span:hover {
   font-size: 35px;
   margin-top: 10px;
   padding: 5px;
-  font-weight: bold;
   color: white;
 }
 
